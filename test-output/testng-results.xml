@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[YOUR PERSONAL INFORMATION Page loaded]]>
+    </line>
+    <line>
+      <![CDATA[Existing name: Namename  First Name set as: Namename]]>
+    </line>
+    <line>
+      <![CDATA[Clicked save]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="160570" started-at="2020-02-02T06:54:28Z" finished-at="2020-02-02T06:57:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="160570" started-at="2020-02-02T06:54:28Z" finished-at="2020-02-02T06:57:09Z">
+      <class name="com.app.test.TestOrder">
+        <test-method status="PASS" signature="testOrderTshirts(java.util.Map)[pri:0, instance:com.app.test.TestOrder@26be92ad]" name="testOrderTshirts" duration-ms="57760" started-at="2020-02-02T12:25:46Z" data-provider="orderTshirtsData" finished-at="2020-02-02T12:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ItemName=Faded Short Sleeve T-shirts, UserName=loginntest@g.com, Password=Password123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrderTshirts -->
+      </class> <!-- com.app.test.TestOrder -->
+      <class name="com.app.test.PersonInfo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.test.PersonInfo@4c70fda8]" name="setup" is-config="true" duration-ms="53188" started-at="2020-02-02T12:24:28Z" finished-at="2020-02-02T12:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.app.test.TestOrder@26be92ad]" name="setup" is-config="true" duration-ms="24235" started-at="2020-02-02T12:25:21Z" finished-at="2020-02-02T12:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPersonalInfoModification(java.util.Map)[pri:0, instance:com.app.test.PersonInfo@4c70fda8]" name="testPersonalInfoModification" duration-ms="25272" started-at="2020-02-02T12:26:44Z" data-provider="ModifyPersonInfoData" finished-at="2020-02-02T12:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{NewFirstName=Namename, UserName=loginntest@g.com, Password=Password123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[YOUR PERSONAL INFORMATION Page loaded]]>
+            </line>
+            <line>
+              <![CDATA[Existing name: Namename  First Name set as: Namename]]>
+            </line>
+            <line>
+              <![CDATA[Clicked save]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPersonalInfoModification -->
+      </class> <!-- com.app.test.PersonInfo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
