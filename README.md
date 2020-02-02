@@ -11,6 +11,10 @@ PageFactory object model has been used to develop the framework.
   1. Page object for revelant screens were created
   2. Created page objects were used in the test.
   
+ 
+  ![Project](proj.PNG)
+  
+  
 DataUtils class
   1. Class was used to send data to Test class
 
