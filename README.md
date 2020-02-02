@@ -7,6 +7,14 @@ Use of libraries
 2. TestNG
 3. Chromedriver
 
+PageFactory object model has been used to develop the framework.
+  1. Page object for revelant screens were created
+  2. Created page objects were used in the test.
+  
+DataUtils class
+  1. Class was used to send data to Test class
+
+
 
 
 Furthure improvement could be 
